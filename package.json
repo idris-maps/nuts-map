@@ -1,0 +1,16 @@
+{
+  "name": "NUTS2_map",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify main.js -o public/script.js"
+  },
+  "author": "idirs-maps.com",
+  "license": "GPL",
+  "dependencies": {
+    "d3": "~3.5.6",
+    "director": "~1.2.8"
+  }
+}
